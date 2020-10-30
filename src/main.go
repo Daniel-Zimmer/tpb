@@ -30,7 +30,7 @@ func main() {
 
 		size := humanize.Bytes(uint64(response.Size))
 
-		fmt.Printf("%s\n\n", response.Name)
+		fmt.Printf("\n%s\n\n", response.Name)
 		fmt.Printf("Type:   %d\n", response.Category)
 		fmt.Printf("Files:  %d\n", response.NumFiles)
 		fmt.Printf("Size:   %s\n\n", size)
@@ -44,7 +44,7 @@ func main() {
 		fmt.Printf("%s\n", response.Descr)
 		fmt.Println(" ================")
 
-		fmt.Printf("\n%s\n",
+		fmt.Printf("\n%s\n\n",
 			"magnet:?xt=urn:btih:" +
 			response.InfoHash +
 			"&dn=" +
