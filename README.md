@@ -18,3 +18,32 @@ You can get more information (including the magnet link) about a response using 
 ```
 tpb <ID>
 ```
+
+## Installing
+
+Clone the repository
+
+```
+git clone github.com/Daniel-Zimmer/tpb
+```
+
+Make sure you have **go** and **go-dep** installed
+
+cd into the repository and run dep init
+
+```
+cd tpb/src
+dep init
+```
+
+Build
+
+```
+go build
+```
+
+Add executable to PATH. One easy way is to copy the executable to /bin
+
+```
+sudo cp src /bin/tpb
+```
