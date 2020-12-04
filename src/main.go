@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/Daniel-Zimmer/pterm"
 	"github.com/dustin/go-humanize"
 	"net/url"
 	"os"
-	"pterm"
 	"strconv"
 	"strings"
 	"time"
